@@ -12,8 +12,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="gmall-api" target="1.5" />
+      <module name="gmall-parent" target="1.8" />
       <module name="gmall-user" target="1.8" />
-      <module name="gmallparent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
