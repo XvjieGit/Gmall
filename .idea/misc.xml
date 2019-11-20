@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/gmall-user/pom.xml" />
+        <option value="$PROJECT_DIR$/gmallparent/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-api/pom.xml" />
       </list>
     </option>
   </component>

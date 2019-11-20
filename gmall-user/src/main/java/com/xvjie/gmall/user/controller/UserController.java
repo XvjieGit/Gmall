@@ -1,7 +1,8 @@
 package com.xvjie.gmall.user.controller;
 
-import com.xvjie.gmall.user.bean.UmsMember;
-import com.xvjie.gmall.user.service.UserService;
+import com.xvjie.gmall.bean.UmsMember;
+import com.xvjie.gmall.bean.UmsMemberReceiveAddress;
+import com.xvjie.gmall.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,11 +15,18 @@ public class UserController {
     @Autowired
     UserService userService;
 
-    @RequestMapping("GetAllUser")
+    @RequestMapping("getAllUser")
     @ResponseBody
-    public List<UmsMember> GetAllUser(){
-        List<UmsMember> umsMember =  userService.GetAllUser();
+    public List<UmsMember> getAllUser(){
+        List<UmsMember> umsMember =  userService.getAllUser();
         return umsMember;
+    }
+
+    @RequestMapping("getReceiveByMemberId")
+    @ResponseBody
+    public List<UmsMemberReceiveAddress> getReceiveByMemberId(String memberId){
+        List<UmsMemberReceiveAddress> umsMemberReceiveAddress =  userService.getReceiveByMemberId(memberId);
+        return umsMemberReceiveAddress;
     }
 
 

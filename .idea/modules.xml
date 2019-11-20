@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Gmall.iml" filepath="$PROJECT_DIR$/Gmall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-api/gmall-api.iml" filepath="$PROJECT_DIR$/gmall-api/gmall-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/gmall-user/gmall-user.iml" filepath="$PROJECT_DIR$/gmall-user/gmall-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmallparent/gmallparent.iml" filepath="$PROJECT_DIR$/gmallparent/gmallparent.iml" />
     </modules>
   </component>
 </project>

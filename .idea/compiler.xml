@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gmall-api" />
         <module name="gmall-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="gmall-api" target="1.5" />
       <module name="gmall-user" target="1.8" />
+      <module name="gmallparent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
